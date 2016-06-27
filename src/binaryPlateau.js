@@ -14,10 +14,8 @@ var binaryPlateau = function(number) {
 			} else {
 				if (count > ones) {
 					ones = count;
-					count = 0;
-				} else {
-					count = 0;
 				}
+				count = 0;
 			}
 		}
 	return ones;		
